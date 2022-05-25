@@ -41,7 +41,7 @@ At throtl we receive product data, vehicle data and general data from multiple d
 
 I'd recommend building out a couple of structures - and exactly how this is done can vary.
 
-First, for vehicles themselves, it seems like what we have is going to need to be a composed record, based on customer input - I have a VW GTI, Modely year 2018, but crucially, I have the autobahn version of the car, which means it has larger brake rotors, and needs rims that will fit correctly over those.
+First, for vehicles themselves, it seems like what we have is going to need to be a composed record, based on customer input - I have a VW GTI, Model year 2018, but crucially, I have the autobahn version of the car, which means it has larger brake rotors, and needs rims that will fit correctly over those.
 
 Seems safe to say that at the very least the trim level, in addition to the model, needs to be captured - Subaru's website lists 18-inch alloys as standard on the premium, limited and GT trims of the WRX, but not the base.  Tirerack and company select manufacturer, year, model and trim.  Seems like we'd need to do the same - with probably three of those all possibly present on the main vehicle's table.
 

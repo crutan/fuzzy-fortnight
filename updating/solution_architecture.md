@@ -49,7 +49,7 @@ Workers can be fired up to run against these queues.  A worker could look someth
 	#	- if we get a 429 (too many requests, then set that key's wait time a second into the future, and try submitting again
 	#	- if we get a 200, everything's good
 	#	- if we get 
-	# Regardles, return two bits - success / failure, and retry.  0, 1 == failure, retry - 0, 0 == failure, no-retry
+	# Regardless, return two bits - success / failure, and retry.  0, 1 == failure, retry - 0, 0 == failure, no-retry
 	def submit_job(job)
 		key_index = @keys.find_index {|k| k[:wait_time] < Time.now.to_i}
 		result = submit_api_call(job, @keys[key_index][:key]) # Hopefully this is clearly an abstraction - this would be a call to net::http or httparty or whatever
