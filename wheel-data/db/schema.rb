@@ -59,6 +59,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_05_24_193034) do
     t.string "brand"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["bolt_pattern", "offset", "width", "diameter"], name: "index_wheels_on_bolt_pattern_and_offset_and_width_and_diameter"
     t.index ["wheel_vendor_id"], name: "index_wheels_on_wheel_vendor_id"
   end
 

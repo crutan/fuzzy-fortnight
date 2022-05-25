@@ -52,5 +52,11 @@ bolt_pattern
 offset
 width
 diameter
-along with some vendor info like finish, sku, brand and vendor_id
+along with some vendor info like finish, sku, brand and vendor_id - need to retain those foreign ids, I'm assuming, so that we can order parts.
+
+I've built these migrations, along with some semi-randomized seed data in db/seeds, and a function in models/trim to find wheels that fit for a given trim based on this structure.
+
+Ultimately, the speed here will be down to the database and its indexes.  The bolt pattern is an equality check, and there's only one, so that would need to be indexed and then the remaining conditional columns on wheels should also be indexed (offset, width, diameter).  
+
+
 

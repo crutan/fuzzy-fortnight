@@ -12,5 +12,7 @@ class CreateWheels < ActiveRecord::Migration[7.0]
       t.string :brand
       t.timestamps
     end
+
+    add_index(:wheels, [:bolt_pattern, :offset, :width, :diameter])
   end
 end
