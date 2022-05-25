@@ -1,0 +1,51 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+17s:
+  bolt_pattern: 5x113
+  offset: 40
+  width: 8
+  diameter: 17
+  vendor_sku: asdfadsf
+  vendor_id: 1
+  wheel_vendor: one
+  finish: alloy
+
+17slicks:
+  bolt_pattern: 5x113
+  offset: 35
+  width: 8.5
+  diameter: 17
+  vendor_sku: asddffadsf
+  vendor_id: 3
+  wheel_vendor: one
+  finish: black
+
+13s:
+  bolt_pattern: 4x98
+  offset: 30
+  width: 5
+  diameter: 13
+  vendor_sku: 123432afds
+  vendor_id: 4
+  wheel_vendor: two
+  finish: Steel
+
+18s:
+  bolt_pattern: 5x112
+  offset: 40
+  width: 8
+  diameter: 18
+  vendor_sku: hgdsdfa
+  vendor_id: 3
+  wheel_vendor: two
+  finish: brushed steel
+
+22s:
+  bolt_pattern: 5x113
+  offset: 40
+  width: 8.5
+  diameter: 22
+  vendor_sku: dasfasdf
+  vendor_id: 7
+  wheel_vendor: two
+  finish: chrome

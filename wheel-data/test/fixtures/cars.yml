@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+civic:
+  manufacturer: honda
+  year: 2020
+  name: Civic
+
+junker:
+  manufacturer: yugo
+  year: 1998
+  name: GV

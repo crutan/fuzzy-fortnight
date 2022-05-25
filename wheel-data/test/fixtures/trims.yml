@@ -1,0 +1,34 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+civic_si:
+  name: SI
+  car: civic
+  bolt_pattern: 5x113
+  min_offset: 35
+  max_offset: 43
+  min_width: 7
+  max_width: 8.5
+  min_diameter: 17
+  max_diameter: 20
+
+civic_ex:
+  name: EX
+  car: civic
+  bolt_pattern: 5x113
+  min_offset: 35
+  max_offset: 43
+  min_width: 7
+  max_width: 8.5
+  min_diameter: 16
+  max_diameter: 18
+
+yugo_22:
+  name: 2.2
+  car: junker
+  bolt_pattern: 4x98
+  min_offset: 20
+  max_offset: 30
+  min_width: 4.5
+  max_width: 5
+  min_diameter: 13
+  max_diameter: 14
