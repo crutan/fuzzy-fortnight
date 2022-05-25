@@ -39,7 +39,7 @@ At throtl we receive product data, vehicle data and general data from multiple d
 
 ## Observations
 
-I'd recommend building out a couple of structures - and exactly how this is done can vary.
+I'd recommend building out a couple of structures - and exactly how this is done can vary, but I've gone ahead and built out some simple tables within this rails app.  I believe that the between sort of data-structure here would actually work out fairly nicely as part of an elasticsearch index, which would be a bonus - elastic can build all the filters for wheels based on that kind of data and present them very nicely - in the event that search was something you wanted to bring in-house.
 
 First, for vehicles themselves, it seems like what we have is going to need to be a composed record, based on customer input - I have a VW GTI, Model year 2018, but crucially, I have the autobahn version of the car, which means it has larger brake rotors, and needs rims that will fit correctly over those.
 
